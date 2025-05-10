@@ -110,7 +110,7 @@ async function login() {
         const token = await response.text();
         localStorage.setItem('token', token);
         msg.innerText = 'Успішний вхід!';
-        await getAllUsers(); // Перейти до списку користувачів
+        await getAllUsers();
     } else {
         msg.innerText = await response.text();
     }

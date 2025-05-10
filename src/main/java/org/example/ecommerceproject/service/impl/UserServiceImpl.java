@@ -39,6 +39,7 @@ public class UserServiceImpl implements UserService {
         if (authentication.isAuthenticated())
             return jwtServiceImpl.generateToken(request.username());
         else throw new NoAuthenticatedTokenException("No registered user found");
+//        else return "Fail";
     }
 
     @Override

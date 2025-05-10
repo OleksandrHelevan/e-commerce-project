@@ -38,14 +38,13 @@ public class LoginController {
         try {
             return new ResponseEntity<>(userService.verify(request), HttpStatus.OK);
         } catch (NoAuthenticatedTokenException e) {
+            System.out.println(e.getMessage());
             return new ResponseEntity<>(e.getMessage(), HttpStatus.UNAUTHORIZED);
         }
     }
 
     @GetMapping("/all")
     public List<User> getAllUsers() {
-        List<User> users = userService.getAllUsers();
-        System.out.println(users);
-        return users;
+        return userService.getAllUsers();
     }
 }
