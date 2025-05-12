@@ -1,0 +1,110 @@
+@use "colors";
+
+.item-container {
+  padding: 60px 120px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.card {
+  position: relative;
+  width: 480px;
+  border: 2px solid colors.$border-color;
+  border-radius: 12px;
+  padding: 1.2rem;
+  box-shadow: 0 0 12px colors.$box-shadow-light;
+  background-color: colors.$card-background;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: scale(1.04);
+    background-color: colors.$card-hover;
+    box-shadow: 0 0 15px colors.$box-shadow-dark;
+
+  }
+
+  .info {
+    padding: 8px;
+  }
+
+  .info > p {
+    margin: 4px;
+    font-size: 16px;
+    color: colors.$text-color;
+
+    span {
+      font-weight: bold;
+    }
+  }
+
+  .model-name {
+    font-size: 24px;
+    color: colors.$text-color;
+    font-weight: bold;
+  }
+
+}
+
+h2 {
+  color: colors.$text-color;
+  margin-top: 12px;
+  text-align: center;
+}
+
+.tech-condition {
+  width: 144px;
+  position: absolute;
+  top: -30px;
+  z-index: -1;
+  left: 8px;
+  color: white;
+  padding: 4px;
+  border-radius: 10px 10px 0 0;
+
+  p {
+    text-align: center;
+  }
+}
+
+.new {
+  background-color: colors.$tech-condition-new;
+}
+
+.like-new {
+  background-color: colors.$tech-condition-like-new;
+}
+
+.very-good {
+  background-color: colors.$tech-condition-very-good;
+}
+
+.good {
+  background-color: colors.$tech-condition-good;
+}
+
+.acceptable {
+  background-color: colors.$tech-condition-acceptable;
+}
+
+.poor {
+  background-color: colors.$tech-condition-poor;
+}
+
+.for-parts {
+  background-color: colors.$tech-condition-for-parts;
+}
+
+.price {
+  padding: 0 8px 4px 0;
+  position: absolute;
+  font-size: 24px;
+  right: 0;
+  bottom: 0;
+
+  p {
+    font-weight: bold;
+    color: colors.$text-strong;
+  }
+}

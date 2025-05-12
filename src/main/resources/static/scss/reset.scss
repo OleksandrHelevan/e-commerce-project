@@ -1,0 +1,28 @@
+@use "colors";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: auto;
+  scrollbar-color: colors.$scrollbar-thumb colors.$scrollbar-track;
+}
+
+::-webkit-scrollbar {
+  width: 24px;
+}
+
+::-webkit-scrollbar-track {
+  background: colors.$scrollbar-track;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: colors.$scrollbar-thumb;
+  border-radius: 6px;
+  border: 3px solid colors.$scrollbar-track;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: colors.$scrollbar-thumb-hover;
+}
+

@@ -21,5 +21,4 @@ public class Phone {
 
     @Enumerated(EnumType.STRING)
     private TechCondition techCondition;
-    private int quantity;
 }

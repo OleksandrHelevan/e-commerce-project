@@ -1,5 +1,6 @@
 package org.example.ecommerceproject.mapper;
 
+import org.example.ecommerceproject.dto.UserDTO;
 import org.example.ecommerceproject.model.User;
 import org.example.ecommerceproject.request.RegistrationRequest;
 
@@ -14,5 +15,15 @@ public class UserMapper {
         user.setBirthDate(request.birthDate());
         user.setSex(request.sex());
         return user;
+    }
+
+    public static UserDTO toDTO(User user) {
+        UserDTO userDTO = new UserDTO();
+        userDTO.setUsername(user.getUsername());
+        userDTO.setEmail(user.getEmail());
+        userDTO.setPhone(user.getPhone());
+        userDTO.setBirthDate(user.getBirthDate());
+        userDTO.setSex(user.getSex());
+        return userDTO;
     }
 }

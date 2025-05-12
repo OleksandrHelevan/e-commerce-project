@@ -1,5 +1,6 @@
 package org.example.ecommerceproject.service.impl;
 
+import org.example.ecommerceproject.dto.UserDTO;
 import org.example.ecommerceproject.exception.NoAuthenticatedTokenException;
 import org.example.ecommerceproject.mapper.UserMapper;
 import org.example.ecommerceproject.model.User;
@@ -45,5 +46,11 @@ public class UserServiceImpl implements UserService {
     @Override
     public List<User> getAllUsers() {
         return userRepository.findAll();
+    }
+
+    @Override
+    public UserDTO getUserByUsername(String username) {
+        User user = userRepository.findByUsername(username);
+        return UserMapper.toDTO(user);
     }
 }
