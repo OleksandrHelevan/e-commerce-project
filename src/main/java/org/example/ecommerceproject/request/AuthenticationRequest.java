@@ -10,7 +10,7 @@ public record AuthenticationRequest(String username, String password) {
         this.password = password;
     }
 
-    public AuthenticationRequest(User user){
+    public AuthenticationRequest(User user) {
         this(user.getUsername(), user.getPassword());
     }
 

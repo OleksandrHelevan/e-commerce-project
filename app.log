@@ -1,20 +1,25 @@
-2025-05-12T10:13:13.345+03:00  INFO 64492 --- [e-commerce-project] [main] o.e.e.ECommerceProjectApplication        : Starting ECommerceProjectApplication using Java 21.0.7 with PID 64492 (C:\Users\user\Desktop\e-commerce-project\target\classes started by user in C:\Users\user\Desktop\e-commerce-project)
-2025-05-12T10:13:13.349+03:00  INFO 64492 --- [e-commerce-project] [main] o.e.e.ECommerceProjectApplication        : No active profile set, falling back to 1 default profile: "default"
-2025-05-12T10:13:14.116+03:00  INFO 64492 --- [e-commerce-project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-05-12T10:13:14.166+03:00  INFO 64492 --- [e-commerce-project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 2 JPA repository interfaces.
-2025-05-12T10:13:14.538+03:00  INFO 64492 --- [e-commerce-project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-05-12T10:13:14.548+03:00  INFO 64492 --- [e-commerce-project] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-05-12T10:13:14.549+03:00  INFO 64492 --- [e-commerce-project] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
-2025-05-12T10:13:14.584+03:00  INFO 64492 --- [e-commerce-project] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-05-12T10:13:14.584+03:00  INFO 64492 --- [e-commerce-project] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1203 ms
-2025-05-12T10:13:14.707+03:00  INFO 64492 --- [e-commerce-project] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-05-12T10:13:14.750+03:00  INFO 64492 --- [e-commerce-project] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
-2025-05-12T10:13:14.774+03:00  INFO 64492 --- [e-commerce-project] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-05-12T10:13:15.001+03:00  INFO 64492 --- [e-commerce-project] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-05-12T10:13:15.036+03:00  INFO 64492 --- [e-commerce-project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-05-12T10:13:15.253+03:00  INFO 64492 --- [e-commerce-project] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bookdb user=OLEKSANDR
-2025-05-12T10:13:15.255+03:00  INFO 64492 --- [e-commerce-project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-05-12T10:13:15.310+03:00  INFO 64492 --- [e-commerce-project] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-05-20T00:00:03.166+03:00  INFO 9956 --- [e-commerce-project] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-20T00:00:03.180+03:00  INFO 9956 --- [e-commerce-project] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-20T00:00:03.184+03:00  INFO 9956 --- [e-commerce-project] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-20T00:00:03.187+03:00  INFO 9956 --- [e-commerce-project] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-20T00:00:03.190+03:00  INFO 9956 --- [e-commerce-project] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-20T00:00:07.436+03:00  INFO 4040 --- [e-commerce-project] [main] o.e.e.ECommerceProjectApplication        : Starting ECommerceProjectApplication using Java 21.0.7 with PID 4040 (D:\desktop-2\e-commerce-project\target\classes started by user in D:\desktop-2\e-commerce-project)
+2025-05-20T00:00:07.438+03:00  INFO 4040 --- [e-commerce-project] [main] o.e.e.ECommerceProjectApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-05-20T00:00:08.310+03:00  INFO 4040 --- [e-commerce-project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-20T00:00:08.403+03:00  INFO 4040 --- [e-commerce-project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 2 JPA repository interfaces.
+2025-05-20T00:00:08.987+03:00  INFO 4040 --- [e-commerce-project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-20T00:00:09.000+03:00  INFO 4040 --- [e-commerce-project] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-20T00:00:09.001+03:00  INFO 4040 --- [e-commerce-project] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-20T00:00:09.049+03:00  INFO 4040 --- [e-commerce-project] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-20T00:00:09.049+03:00  INFO 4040 --- [e-commerce-project] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1572 ms
+2025-05-20T00:00:09.248+03:00  INFO 4040 --- [e-commerce-project] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-20T00:00:09.330+03:00  INFO 4040 --- [e-commerce-project] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-20T00:00:09.381+03:00  INFO 4040 --- [e-commerce-project] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-20T00:00:09.793+03:00  INFO 4040 --- [e-commerce-project] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-20T00:00:09.830+03:00  INFO 4040 --- [e-commerce-project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-20T00:00:10.051+03:00  INFO 4040 --- [e-commerce-project] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bookdb user=OLEKSANDR
+2025-05-20T00:00:10.054+03:00  INFO 4040 --- [e-commerce-project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-20T00:00:10.129+03:00  INFO 4040 --- [e-commerce-project] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
@@ -22,213 +27,293 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-05-12T10:13:16.337+03:00  INFO 64492 --- [e-commerce-project] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-05-12T10:13:16.343+03:00  INFO 64492 --- [e-commerce-project] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-05-12T10:13:17.047+03:00  INFO 64492 --- [e-commerce-project] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-05-12T10:13:17.048+03:00  WARN 64492 --- [e-commerce-project] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-05-12T10:13:17.142+03:00  WARN 64492 --- [e-commerce-project] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-05-12T10:13:17.374+03:00  INFO 64492 --- [e-commerce-project] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2025-05-12T10:13:17.786+03:00 DEBUG 64492 --- [e-commerce-project] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-2025-05-12T10:13:18.130+03:00  INFO 64492 --- [e-commerce-project] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bookdb'
-2025-05-12T10:13:18.440+03:00  INFO 64492 --- [e-commerce-project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-05-12T10:13:18.456+03:00  INFO 64492 --- [e-commerce-project] [main] o.e.e.ECommerceProjectApplication        : Started ECommerceProjectApplication in 5.574 seconds (process running for 10.742)
-2025-05-12T10:14:08.709+03:00  INFO 64492 --- [e-commerce-project] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-05-12T10:14:08.710+03:00  INFO 64492 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-05-12T10:14:08.714+03:00  INFO 64492 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
-2025-05-12T10:14:08.774+03:00 DEBUG 64492 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /login
-2025-05-12T10:14:08.832+03:00 DEBUG 64492 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /login
-2025-05-12T10:14:08.841+03:00 DEBUG 64492 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2025-05-12T10:14:08.846+03:00 DEBUG 64492 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /login
-2025-05-12T10:14:10.500+03:00 DEBUG 64492 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
-2025-05-12T10:14:10.745+03:00 DEBUG 64492 --- [e-commerce-project] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /phones/all
-2025-05-12T10:14:10.749+03:00 DEBUG 64492 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
-2025-05-12T10:14:10.893+03:00 DEBUG 64492 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
-2025-05-12T10:14:19.326+03:00 DEBUG 64492 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /user/Oleksandr
-2025-05-12T10:14:19.347+03:00 DEBUG 64492 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /user/Oleksandr
-2025-05-12T10:14:19.359+03:00 DEBUG 64492 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /user/Oleksandr
-2025-05-12T10:14:26.653+03:00 DEBUG 64492 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /phones/all
-2025-05-12T10:14:26.658+03:00 DEBUG 64492 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
-2025-05-12T10:14:26.675+03:00 DEBUG 64492 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
-2025-05-12T10:14:28.308+03:00 DEBUG 64492 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /user/Oleksandr
-2025-05-12T10:14:28.315+03:00 DEBUG 64492 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /user/Oleksandr
-2025-05-12T10:14:28.315+03:00 DEBUG 64492 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /user/Oleksandr
-2025-05-12T10:14:28.327+03:00 DEBUG 64492 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /user/Oleksandr
-2025-05-12T10:14:28.339+03:00 DEBUG 64492 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /user/Oleksandr
-2025-05-12T10:14:28.352+03:00 DEBUG 64492 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /user/Oleksandr
-2025-05-12T10:14:33.080+03:00  INFO 64492 --- [e-commerce-project] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-05-12T10:14:33.093+03:00  INFO 64492 --- [e-commerce-project] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-05-12T10:14:33.101+03:00  INFO 64492 --- [e-commerce-project] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-05-12T10:14:33.105+03:00  INFO 64492 --- [e-commerce-project] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-05-12T10:14:33.108+03:00  INFO 64492 --- [e-commerce-project] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-05-12T10:14:37.802+03:00  INFO 89476 --- [e-commerce-project] [main] o.e.e.ECommerceProjectApplication        : Starting ECommerceProjectApplication using Java 21.0.7 with PID 89476 (C:\Users\user\Desktop\e-commerce-project\target\classes started by user in C:\Users\user\Desktop\e-commerce-project)
-2025-05-12T10:14:37.803+03:00  INFO 89476 --- [e-commerce-project] [main] o.e.e.ECommerceProjectApplication        : No active profile set, falling back to 1 default profile: "default"
-2025-05-12T10:14:38.217+03:00  INFO 89476 --- [e-commerce-project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-05-12T10:14:38.256+03:00  INFO 89476 --- [e-commerce-project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 2 JPA repository interfaces.
-2025-05-12T10:14:38.568+03:00  INFO 89476 --- [e-commerce-project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-05-12T10:14:38.578+03:00  INFO 89476 --- [e-commerce-project] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-05-12T10:14:38.579+03:00  INFO 89476 --- [e-commerce-project] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
-2025-05-12T10:14:38.609+03:00  INFO 89476 --- [e-commerce-project] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-05-12T10:14:38.610+03:00  INFO 89476 --- [e-commerce-project] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 785 ms
-2025-05-12T10:14:38.708+03:00  INFO 89476 --- [e-commerce-project] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-05-12T10:14:38.739+03:00  INFO 89476 --- [e-commerce-project] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
-2025-05-12T10:14:38.768+03:00  INFO 89476 --- [e-commerce-project] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-05-12T10:14:38.958+03:00  INFO 89476 --- [e-commerce-project] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-05-12T10:14:38.975+03:00  INFO 89476 --- [e-commerce-project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-05-12T10:14:39.093+03:00  INFO 89476 --- [e-commerce-project] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bookdb user=OLEKSANDR
-2025-05-12T10:14:39.094+03:00  INFO 89476 --- [e-commerce-project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-05-12T10:14:39.135+03:00  INFO 89476 --- [e-commerce-project] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 2.3.232
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-05-12T10:14:39.664+03:00  INFO 89476 --- [e-commerce-project] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-05-12T10:14:39.666+03:00  INFO 89476 --- [e-commerce-project] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-05-12T10:14:39.848+03:00  INFO 89476 --- [e-commerce-project] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-05-12T10:14:39.849+03:00  WARN 89476 --- [e-commerce-project] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-05-12T10:14:39.871+03:00  WARN 89476 --- [e-commerce-project] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-05-12T10:14:39.925+03:00  INFO 89476 --- [e-commerce-project] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2025-05-12T10:14:40.042+03:00 DEBUG 89476 --- [e-commerce-project] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-2025-05-12T10:14:40.149+03:00  INFO 89476 --- [e-commerce-project] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bookdb'
-2025-05-12T10:14:40.235+03:00  INFO 89476 --- [e-commerce-project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-05-12T10:14:40.240+03:00  INFO 89476 --- [e-commerce-project] [main] o.e.e.ECommerceProjectApplication        : Started ECommerceProjectApplication in 2.707 seconds (process running for 3.097)
-2025-05-12T10:14:40.458+03:00  INFO 89476 --- [e-commerce-project] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-05-12T10:14:40.459+03:00  INFO 89476 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-05-12T10:14:40.459+03:00  INFO 89476 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2025-05-12T10:14:40.470+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /phones/all
-2025-05-12T10:14:40.487+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
-2025-05-12T10:14:40.543+03:00 ERROR 89476 --- [e-commerce-project] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
-
-io.jsonwebtoken.security.SignatureException: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
-	at io.jsonwebtoken.impl.DefaultJwtParser.verifySignature(DefaultJwtParser.java:340) ~[jjwt-impl-0.12.5.jar:0.12.5]
-	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:577) ~[jjwt-impl-0.12.5.jar:0.12.5]
-	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:362) ~[jjwt-impl-0.12.5.jar:0.12.5]
-	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:94) ~[jjwt-impl-0.12.5.jar:0.12.5]
-	at io.jsonwebtoken.impl.io.AbstractParser.parse(AbstractParser.java:36) ~[jjwt-impl-0.12.5.jar:0.12.5]
-	at io.jsonwebtoken.impl.io.AbstractParser.parse(AbstractParser.java:29) ~[jjwt-impl-0.12.5.jar:0.12.5]
-	at io.jsonwebtoken.impl.DefaultJwtParser.parseSignedClaims(DefaultJwtParser.java:821) ~[jjwt-impl-0.12.5.jar:0.12.5]
-	at org.example.ecommerceproject.service.impl.JwtServiceImpl.extractAllClaims(JwtServiceImpl.java:76) ~[classes/:na]
-	at org.example.ecommerceproject.service.impl.JwtServiceImpl.extractClaim(JwtServiceImpl.java:68) ~[classes/:na]
-	at org.example.ecommerceproject.service.impl.JwtServiceImpl.extractUserName(JwtServiceImpl.java:58) ~[classes/:na]
-	at org.example.ecommerceproject.config.filter.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:37) ~[classes/:na]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:243) ~[spring-webmvc-6.2.6.jar:6.2.6]
-	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:238) ~[spring-security-config-6.4.5.jar:6.4.5]
-	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
-
-2025-05-12T10:14:40.552+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /error
-2025-05-12T10:14:40.553+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2025-05-12T10:14:40.555+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-1] s.w.a.DelegatingAuthenticationEntryPoint : Trying to match using RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]
-2025-05-12T10:14:40.555+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-1] s.w.a.DelegatingAuthenticationEntryPoint : No match found. Using default entry point org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint@47eb6830
-2025-05-12T10:14:57.860+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /login
-2025-05-12T10:14:57.866+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing POST /login
-2025-05-12T10:14:57.868+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2025-05-12T10:14:57.869+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured POST /login
-2025-05-12T10:14:58.502+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
-2025-05-12T10:14:58.527+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /phones/all
-2025-05-12T10:14:58.530+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
-2025-05-12T10:14:58.556+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
-2025-05-12T10:15:10.816+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /user/Oleksandr
-2025-05-12T10:15:10.823+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /user/Oleksandr
-2025-05-12T10:15:10.829+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /user/Oleksandr
-2025-05-12T10:16:04.069+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /login
-2025-05-12T10:16:04.073+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /login
-2025-05-12T10:16:04.074+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2025-05-12T10:16:04.074+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /login
-2025-05-12T10:16:04.326+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
-2025-05-12T10:16:04.329+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /phones/all
-2025-05-12T10:16:04.332+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
-2025-05-12T10:16:04.335+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
-2025-05-12T10:16:12.974+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /user/Oleksandr
-2025-05-12T10:16:12.978+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /user/Oleksandr
-2025-05-12T10:16:12.982+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /user/Oleksandr
-2025-05-12T10:16:35.537+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /login
-2025-05-12T10:16:35.539+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /login
-2025-05-12T10:16:35.540+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2025-05-12T10:16:35.540+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /login
-2025-05-12T10:16:35.796+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
-2025-05-12T10:16:35.801+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /phones/all
-2025-05-12T10:16:35.802+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
-2025-05-12T10:16:35.806+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
-2025-05-12T10:16:44.976+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /user/Oleksandr
-2025-05-12T10:16:44.979+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /user/Oleksandr
-2025-05-12T10:16:44.983+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /user/Oleksandr
-2025-05-12T10:17:20.232+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /phones/all
-2025-05-12T10:17:20.234+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
-2025-05-12T10:17:20.239+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
-2025-05-12T10:17:20.245+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
-2025-05-12T10:17:20.251+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
-2025-05-12T10:17:35.325+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /login
-2025-05-12T10:17:35.326+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing POST /login
-2025-05-12T10:17:35.327+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2025-05-12T10:17:35.327+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured POST /login
-2025-05-12T10:17:35.578+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
-2025-05-12T10:17:35.584+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /phones/all
-2025-05-12T10:17:35.586+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
-2025-05-12T10:17:35.589+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
-2025-05-12T10:17:43.587+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /user/Oleksandr
-2025-05-12T10:17:43.590+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /user/Oleksandr
-2025-05-12T10:17:43.594+03:00 DEBUG 89476 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /user/Oleksandr
-2025-05-12T10:21:34.864+03:00  INFO 89476 --- [e-commerce-project] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-05-12T10:21:34.871+03:00  INFO 89476 --- [e-commerce-project] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-05-12T10:21:34.876+03:00  INFO 89476 --- [e-commerce-project] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-05-12T10:21:34.878+03:00  INFO 89476 --- [e-commerce-project] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-05-12T10:21:34.881+03:00  INFO 89476 --- [e-commerce-project] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-20T00:00:11.033+03:00  INFO 4040 --- [e-commerce-project] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-20T00:00:11.037+03:00  INFO 4040 --- [e-commerce-project] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-20T00:00:11.418+03:00  INFO 4040 --- [e-commerce-project] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-05-20T00:00:11.419+03:00  WARN 4040 --- [e-commerce-project] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-05-20T00:00:11.475+03:00  WARN 4040 --- [e-commerce-project] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-20T00:00:11.560+03:00  INFO 4040 --- [e-commerce-project] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-05-20T00:00:11.769+03:00 DEBUG 4040 --- [e-commerce-project] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-05-20T00:00:11.952+03:00  INFO 4040 --- [e-commerce-project] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bookdb'
+2025-05-20T00:00:12.095+03:00  INFO 4040 --- [e-commerce-project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-20T00:00:12.103+03:00  INFO 4040 --- [e-commerce-project] [main] o.e.e.ECommerceProjectApplication        : Started ECommerceProjectApplication in 5.103 seconds (process running for 5.736)
+2025-05-20T00:00:14.360+03:00  INFO 4040 --- [e-commerce-project] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-20T00:00:14.360+03:00  INFO 4040 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-20T00:00:14.361+03:00  INFO 4040 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-20T00:00:14.375+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /login
+2025-05-20T00:00:14.394+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /login
+2025-05-20T00:00:14.397+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-05-20T00:00:14.400+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /login
+2025-05-20T00:00:15.345+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2025-05-20T00:00:15.453+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /phones/all
+2025-05-20T00:00:15.457+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:00:15.535+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:00:21.980+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /phones/all
+2025-05-20T00:00:21.985+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:00:21.990+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:00:22.000+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:00:22.006+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:00:24.812+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:00:24.817+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:00:26.478+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /user/Oleksandr
+2025-05-20T00:00:26.483+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /user/Oleksandr
+2025-05-20T00:00:26.489+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /user/Oleksandr
+2025-05-20T00:00:26.648+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /user/Oleksandr
+2025-05-20T00:00:26.654+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /user/Oleksandr
+2025-05-20T00:00:26.660+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /user/Oleksandr
+2025-05-20T00:00:26.664+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /user/Oleksandr
+2025-05-20T00:00:27.519+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /phones/all
+2025-05-20T00:00:27.523+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:00:27.527+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:00:28.167+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /user/Oleksandr
+2025-05-20T00:00:28.172+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /user/Oleksandr
+2025-05-20T00:00:28.177+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /user/Oleksandr
+2025-05-20T00:00:28.181+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /user/Oleksandr
+2025-05-20T00:00:28.185+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /user/Oleksandr
+2025-05-20T00:00:28.190+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /user/Oleksandr
+2025-05-20T00:00:28.673+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:00:28.678+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:00:29.079+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /user/Oleksandr
+2025-05-20T00:00:29.086+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /user/Oleksandr
+2025-05-20T00:00:29.095+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /user/Oleksandr
+2025-05-20T00:00:29.101+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /user/Oleksandr
+2025-05-20T00:00:29.108+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /user/Oleksandr
+2025-05-20T00:00:29.115+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /user/Oleksandr
+2025-05-20T00:00:29.121+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /user/Oleksandr
+2025-05-20T00:00:29.127+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /user/Oleksandr
+2025-05-20T00:00:29.404+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:00:29.410+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:00:29.751+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /user/Oleksandr
+2025-05-20T00:00:29.757+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /user/Oleksandr
+2025-05-20T00:00:29.764+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /user/Oleksandr
+2025-05-20T00:00:29.769+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /user/Oleksandr
+2025-05-20T00:00:29.776+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /user/Oleksandr
+2025-05-20T00:00:29.780+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /user/Oleksandr
+2025-05-20T00:00:29.786+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /user/Oleksandr
+2025-05-20T00:00:29.791+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /user/Oleksandr
+2025-05-20T00:00:29.798+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /user/Oleksandr
+2025-05-20T00:00:29.804+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /user/Oleksandr
+2025-05-20T00:00:30.098+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:00:30.104+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:01:24.432+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /phones/all
+2025-05-20T00:01:24.436+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:01:24.441+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:01:24.450+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:01:24.456+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:01:56.858+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /phones/all
+2025-05-20T00:01:56.902+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:01:56.912+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:01:56.930+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:01:56.935+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:03:23.611+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /phones/all
+2025-05-20T00:03:23.616+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:03:23.622+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:03:23.632+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:03:23.636+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:03:29.121+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /phones/all
+2025-05-20T00:03:29.124+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:03:29.130+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:03:29.139+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:03:29.143+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:04:27.639+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /phones/all
+2025-05-20T00:04:27.642+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:04:27.647+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:04:27.655+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:04:27.659+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:04:41.481+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /login
+2025-05-20T00:04:41.489+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing POST /login
+2025-05-20T00:04:41.489+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-05-20T00:04:41.489+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured POST /login
+2025-05-20T00:04:42.287+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2025-05-20T00:04:42.295+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /phones/all
+2025-05-20T00:04:42.295+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:04:42.303+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:04:44.543+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:04:44.548+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:04:44.559+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:04:44.564+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:04:58.401+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /login
+2025-05-20T00:04:58.404+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /login
+2025-05-20T00:04:58.404+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-05-20T00:04:58.404+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /login
+2025-05-20T00:04:59.183+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2025-05-20T00:04:59.199+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /phones/all
+2025-05-20T00:04:59.203+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:04:59.207+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:05:02.070+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:05:02.078+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:05:02.094+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:05:02.108+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:05:37.672+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /login
+2025-05-20T00:05:37.672+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing POST /login
+2025-05-20T00:05:37.672+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-05-20T00:05:37.672+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured POST /login
+2025-05-20T00:05:38.447+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2025-05-20T00:05:38.454+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /phones/all
+2025-05-20T00:05:38.455+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:05:38.455+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:05:53.891+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /user/Oleksandr
+2025-05-20T00:05:53.897+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /user/Oleksandr
+2025-05-20T00:05:53.906+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /user/Oleksandr
+2025-05-20T00:05:54.981+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /phones/all
+2025-05-20T00:05:54.987+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:05:54.996+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:05:55.439+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /user/Oleksandr
+2025-05-20T00:05:55.450+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /user/Oleksandr
+2025-05-20T00:05:55.463+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /user/Oleksandr
+2025-05-20T00:05:55.471+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /user/Oleksandr
+2025-05-20T00:05:55.894+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:05:55.902+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:05:56.308+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /user/Oleksandr
+2025-05-20T00:05:56.313+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /user/Oleksandr
+2025-05-20T00:05:56.321+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /user/Oleksandr
+2025-05-20T00:05:56.334+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /user/Oleksandr
+2025-05-20T00:05:56.343+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /user/Oleksandr
+2025-05-20T00:05:56.347+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /user/Oleksandr
+2025-05-20T00:05:56.617+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:05:56.617+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:06:13.875+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /phones/all
+2025-05-20T00:06:13.878+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:06:13.883+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:06:13.897+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:06:13.902+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:06:38.244+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /phones/all
+2025-05-20T00:06:38.249+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:06:38.254+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:06:38.275+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:06:38.295+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:09:01.567+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /phones/all
+2025-05-20T00:09:01.574+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:09:01.582+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:09:01.591+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:09:01.597+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:09:19.688+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /phones/all
+2025-05-20T00:09:19.693+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:09:19.700+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:09:19.710+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:09:19.718+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:10:34.775+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /phones/all
+2025-05-20T00:10:34.779+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:10:34.785+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:10:34.796+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:10:34.801+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:10:48.017+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /phones/all
+2025-05-20T00:10:48.022+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:10:48.025+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:10:48.031+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:10:48.035+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:01.222+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /phones/all
+2025-05-20T00:11:01.226+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:01.231+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:01.239+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:01.246+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:01.745+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:01.750+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:01.759+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:01.764+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:04.297+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:04.301+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:04.308+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:04.312+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:04.398+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:04.402+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:04.411+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:04.415+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:04.682+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:04.686+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:04.693+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:04.698+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:04.871+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:04.874+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:04.883+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:04.886+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:05.038+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:05.045+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:05.053+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:05.056+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:05.205+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:05.208+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:05.217+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:05.220+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:05.423+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:05.427+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:05.441+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:05.444+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:05.608+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:05.612+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:05.620+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:05.622+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:05.784+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:05.789+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:05.795+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:05.799+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:05.938+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:05.942+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:05.954+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:05.957+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:06.118+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:06.123+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:06.135+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:06.140+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:06.318+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /phones/all
+2025-05-20T00:11:06.321+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:06.327+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:06.339+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:06.344+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:06.446+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:06.450+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:06.462+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:06.465+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:06.641+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:06.645+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:06.651+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:06.655+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:06.814+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:06.818+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:06.828+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:06.834+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:07.096+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:07.102+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:07.116+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:07.122+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:07.268+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:07.273+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:07.278+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:07.281+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:07.420+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:07.423+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:07.431+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:07.437+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:07.727+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:07.732+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:07.738+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:07.754+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:08.113+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:08.117+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:08.126+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:08.130+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:08.478+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:08.482+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:08.488+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:08.491+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:08.851+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:08.854+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:08.859+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:08.861+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:09.285+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:09.289+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:09.296+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:09.299+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:09.658+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:09.661+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:09.666+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:09.668+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:10.068+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:10.072+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:10.079+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:10.082+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:34.612+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /phones/all
+2025-05-20T00:11:34.615+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:34.620+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /phones/all
+2025-05-20T00:11:34.631+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /phones/all
+2025-05-20T00:11:34.634+03:00 DEBUG 4040 --- [e-commerce-project] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /phones/all

@@ -1,7 +1,7 @@
 @use "colors";
 
 .item-container {
-  padding: 60px 120px;
+  padding: 60px 160px;
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
@@ -97,6 +97,7 @@ h2 {
 }
 
 .price {
+  cursor: default;
   padding: 0 8px 4px 0;
   position: absolute;
   font-size: 24px;

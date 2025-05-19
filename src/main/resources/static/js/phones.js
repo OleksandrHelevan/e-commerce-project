@@ -1,9 +1,6 @@
 function createPagePhones(phones) {
     clearApp();
 
-    const h2 = document.createElement('h2');
-    h2.innerText = 'Список телефонів';
-
     const container = document.createElement('div');
     container.classList.add('item-container');
 
@@ -29,7 +26,7 @@ function createPagePhones(phones) {
         container.appendChild(card);
     });
 
-    app.append(h2, container);
+    app.append(container);
 }
 
 
