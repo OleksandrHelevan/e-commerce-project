@@ -24,10 +24,10 @@ public class UserControllerTest {
 
     @Test
     void testGetUser_WhenUserExists() {
-        String username = "john_doe";
+        String username = "Oleksandr";
         UserDTO mockUser = new UserDTO();
         mockUser.setUsername(username);
-        mockUser.setEmail("john@example.com");
+        mockUser.setEmail("oleksandr@example.com");
 
         when(userService.getUserByUsername(username)).thenReturn(mockUser);
 
@@ -36,6 +36,6 @@ public class UserControllerTest {
         assertEquals(HttpStatus.OK, response.getStatusCode());
         assertNotNull(response.getBody());
         assertEquals(username, response.getBody().getUsername());
-        assertEquals("john@example.com", response.getBody().getEmail());
+        assertEquals("oleksandr@example.com", response.getBody().getEmail());
     }
 }

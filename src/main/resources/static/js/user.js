@@ -10,7 +10,7 @@ async function loadUserProfile() {
     }
 
     try {
-        const response = await fetch(`http://localhost:8080/user/${username}`, {
+        const response = await fetch(`http://localhost:8080/users/${username}`, {
             headers: {'Authorization': 'Bearer ' + token}
         });
 

@@ -43,7 +43,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public List<User> getAllUsers() {//TEMP
+    public List<User> getAllUsers() { //TEMP
         return userRepository.findAll();
     }
 
