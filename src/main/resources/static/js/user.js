@@ -35,8 +35,8 @@ async function loadUserProfile() {
     }
 }
 
-function convertSexToText(sex){
-    switch (sex){
+function convertSexToText(sex) {
+    switch (sex) {
         case "MALE":
             return "Чоловіча"
         case "FEMALE":

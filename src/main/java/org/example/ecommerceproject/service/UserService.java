@@ -10,7 +10,7 @@ import java.util.List;
 
 public interface UserService {
     String verify(AuthenticationRequest request) throws NoAuthenticatedTokenException;
-    List<User> getAllUsers();
+    List<User> getAllUsers();//TO_DELETE
     RegistrationRequest register(RegistrationRequest request);
     UserDTO getUserByUsername(String username);
 }

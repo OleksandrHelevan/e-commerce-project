@@ -87,6 +87,6 @@ function convertConditionToClass(condition) {
 }
 
 let showPhonesBtn = document.getElementById('showPhones');
-if(showPhonesBtn){
+if (showPhonesBtn) {
     showPhonesBtn.addEventListener('click', getPhones)
 }

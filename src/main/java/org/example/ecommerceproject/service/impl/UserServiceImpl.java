@@ -2,6 +2,7 @@ package org.example.ecommerceproject.service.impl;
 
 import org.example.ecommerceproject.dto.UserDTO;
 import org.example.ecommerceproject.exception.NoAuthenticatedTokenException;
+import org.example.ecommerceproject.exception.NoSuchObjectException;
 import org.example.ecommerceproject.mapper.UserMapper;
 import org.example.ecommerceproject.model.User;
 import org.example.ecommerceproject.repository.UserRepository;
@@ -40,17 +41,18 @@ public class UserServiceImpl implements UserService {
         if (authentication.isAuthenticated())
             return jwtServiceImpl.generateToken(request.username());
         else throw new NoAuthenticatedTokenException("No registered user found");
-//        else return "Fail";
     }
 
     @Override
-    public List<User> getAllUsers() {
+    public List<User> getAllUsers() {//TO_DELETE
         return userRepository.findAll();
     }
 
     @Override
-    public UserDTO getUserByUsername(String username) {
-        User user = userRepository.findByUsername(username);
+    public UserDTO getUserByUsername(String username) throws NoSuchObjectException {
+        User user = userRepository
+                .findByUsername(username)
+                .orElseThrow(() -> new NoSuchObjectException("User with such name not found"));
         return UserMapper.toDTO(user);
     }
 }

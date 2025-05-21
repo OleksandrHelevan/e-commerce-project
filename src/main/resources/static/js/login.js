@@ -87,7 +87,7 @@ async function login() {
     if (response.ok) {
         const token = await response.text();
         localStorage.setItem('token', token);
-        localStorage.setItem('username',  username)
+        localStorage.setItem('username', username)
         msg.innerText = 'Успішний вхід!';
 
         updateNavAfterLogin();
@@ -155,7 +155,6 @@ function createAuthButtons() {
 
 }
 
-
 async function register() {
     const username = document.getElementById('regUsername').value;
     const password = document.getElementById('regPassword').value;
@@ -180,6 +179,7 @@ async function register() {
     }
 }
 
+console.log(localStorage.getItem('token'));
 const token = localStorage.getItem('token');
 if (token) {
     fetch('http://localhost:8080/phones/all', {
