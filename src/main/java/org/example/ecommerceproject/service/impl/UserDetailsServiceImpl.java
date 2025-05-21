@@ -1,5 +1,6 @@
 package org.example.ecommerceproject.service.impl;
 
+import lombok.RequiredArgsConstructor;
 import org.example.ecommerceproject.model.User;
 import org.example.ecommerceproject.model.UserPrincipal;
 import org.example.ecommerceproject.repository.UserRepository;
@@ -10,10 +11,10 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 @Service
+@RequiredArgsConstructor
 public class UserDetailsServiceImpl implements UserDetailsService {
 
-    @Autowired
-    private UserRepository userRepository;
+    private final UserRepository userRepository;
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {

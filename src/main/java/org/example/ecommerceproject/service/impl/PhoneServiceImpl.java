@@ -1,5 +1,6 @@
 package org.example.ecommerceproject.service.impl;
 
+import lombok.RequiredArgsConstructor;
 import org.example.ecommerceproject.exception.NoSuchObjectException;
 import org.example.ecommerceproject.model.Phone;
 import org.example.ecommerceproject.repository.PhoneRepository;
@@ -11,9 +12,10 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
+@RequiredArgsConstructor
 public class PhoneServiceImpl implements PhoneService {
-    @Autowired
-    private PhoneRepository phoneRepository;
+
+    private final PhoneRepository phoneRepository;
 
 
     @Override

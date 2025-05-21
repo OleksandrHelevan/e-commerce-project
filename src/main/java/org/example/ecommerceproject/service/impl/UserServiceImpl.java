@@ -1,5 +1,6 @@
 package org.example.ecommerceproject.service.impl;
 
+import lombok.RequiredArgsConstructor;
 import org.example.ecommerceproject.dto.UserDTO;
 import org.example.ecommerceproject.exception.NoAuthenticatedTokenException;
 import org.example.ecommerceproject.exception.NoSuchObjectException;
@@ -18,16 +19,14 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
+@RequiredArgsConstructor
 public class UserServiceImpl implements UserService {
 
-    @Autowired
-    private AuthenticationManager authenticationManager;
+    private final AuthenticationManager authenticationManager;
 
-    @Autowired
-    private UserRepository userRepository;
+    private final UserRepository userRepository;
 
-    @Autowired
-    private JwtServiceImpl jwtServiceImpl;
+    private final JwtServiceImpl jwtServiceImpl;
 
     @Override
     public RegistrationRequest register(RegistrationRequest request) {
@@ -44,8 +43,8 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public List<User> getAllUsers() {//TO_DELETE
-        return userRepository.findAll();
+    public List<User> getAllUsers() {//TEMP
+                return userRepository.findAll();
     }
 
     @Override

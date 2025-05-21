@@ -1,5 +1,6 @@
 package org.example.ecommerceproject.controller;
 
+import lombok.RequiredArgsConstructor;
 import org.example.ecommerceproject.model.Phone;
 import org.example.ecommerceproject.service.PhoneService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,10 +14,10 @@ import java.util.List;
 
 @RestController()
 @RequestMapping("/phones")
+@RequiredArgsConstructor()
 public class PhoneController {
 
-    @Autowired
-    private PhoneService phoneService;
+    private final PhoneService phoneService;
 
     @GetMapping("all")
     public ResponseEntity<List<Phone>> getAllPhones() {

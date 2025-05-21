@@ -1,5 +1,6 @@
 package org.example.ecommerceproject.controller;
 
+import lombok.RequiredArgsConstructor;
 import org.example.ecommerceproject.dto.UserDTO;
 import org.example.ecommerceproject.exception.NoSuchObjectException;
 import org.example.ecommerceproject.model.User;
@@ -16,10 +17,10 @@ import java.util.List;
 
 @RestController
 @RequestMapping(("/user"))
+@RequiredArgsConstructor
 public class UserController {
 
-    @Autowired
-    private UserService userService;
+    private final UserService userService;
 
 
     @GetMapping("{username}")
@@ -32,7 +33,7 @@ public class UserController {
         }
     }
 
-    @GetMapping("/all") //TO_DELETE
+    @GetMapping("/all") //TEMP
     public List<User> getAllUsers() {
         return userService.getAllUsers();
     }
