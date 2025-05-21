@@ -9,5 +9,5 @@ import java.util.Optional;
 
 @Repository
 public interface PhoneRepository extends JpaRepository<Phone, Long> {
-    Optional<Phone> getPhoneByModelName(String modelName);
+    Optional<List<Phone>> getPhonesByModelName(String modelName);
 }

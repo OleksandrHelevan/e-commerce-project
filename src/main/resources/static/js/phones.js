@@ -32,7 +32,7 @@ function createPagePhones(phones) {
 
 async function getPhones() {
     const token = localStorage.getItem('token');
-    const response = await fetch('http://localhost:8080/phones/all', {
+    const response = await fetch('http://localhost:8080/phones', {
         headers: {'Authorization': 'Bearer ' + token}
     });
 

@@ -17,16 +17,16 @@ public class PhoneServiceImpl implements PhoneService {
 
     private final PhoneRepository phoneRepository;
 
-
     @Override
     public List<Phone> getAllPhones() {
         return phoneRepository.findAll();
     }
 
     @Override
-    public Phone getPhoneByModelName(String modelName) throws NoSuchObjectException{
+    public List<Phone> getPhonesByModelName(String modelName) throws NoSuchObjectException{
+        String convertedModelName = modelName.replaceAll("%20", " ");
         return phoneRepository
-                .getPhoneByModelName(modelName)
+                .getPhonesByModelName(convertedModelName)
                 .orElseThrow(() -> new NoSuchObjectException("Phone not found with model: " + modelName));
     }
 }

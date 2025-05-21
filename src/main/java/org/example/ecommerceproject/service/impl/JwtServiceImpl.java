@@ -17,6 +17,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
 
+
 @Service
 public class JwtServiceImpl implements JwtService {
 
@@ -36,12 +37,14 @@ public class JwtServiceImpl implements JwtService {
     public String generateToken(String username) {
         Map<String, Object> claims = new HashMap<>();
 
+        long EXPIRATION_TIME = (long) 1000 * 60 * 60 * 2;
+
         return Jwts.builder()
                 .claims()
                 .add(claims)
                 .subject(username)
                 .issuedAt(new Date(System.currentTimeMillis()))
-                .expiration(new Date(System.currentTimeMillis() + 1000 * 60 * 30))
+                .expiration(new Date(System.currentTimeMillis() + EXPIRATION_TIME))
                 .and()
                 .signWith(getKey())
                 .compact();
@@ -69,7 +72,7 @@ public class JwtServiceImpl implements JwtService {
         return claimsResolver.apply(claims);
     }
 
-    private Claims extractAllClaims(String token) {
+    private Claims extractAllClaims(String token){
         return Jwts.parser()
                 .verifyWith(getKey())
                 .build()
