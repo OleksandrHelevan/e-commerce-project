@@ -1,6 +1,7 @@
 package org.example.ecommerceproject.controller;
 
 import lombok.RequiredArgsConstructor;
+import org.example.ecommerceproject.dto.PhoneDTO;
 import org.example.ecommerceproject.exception.NoSuchObjectException;
 import org.example.ecommerceproject.model.Phone;
 import org.example.ecommerceproject.service.PhoneService;
@@ -18,7 +19,7 @@ public class PhoneController {
     private final PhoneService phoneService;
 
     @GetMapping("")
-    public ResponseEntity<List<Phone>> getAllPhones() {
+    public ResponseEntity<List<PhoneDTO>> getAllPhones() {
         return new ResponseEntity<>(phoneService.getAllPhones(), HttpStatus.OK);
     }
 
