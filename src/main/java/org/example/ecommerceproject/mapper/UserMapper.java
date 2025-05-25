@@ -6,7 +6,7 @@ import org.example.ecommerceproject.request.RegistrationRequest;
 
 public class UserMapper {
 
-    public static User fromRequestToClient(RegistrationRequest request) {
+    public static User fromRegistrationRequestToUser(RegistrationRequest request) {
         User user = new User();
         user.setUsername(request.username());
         user.setPassword(request.password());

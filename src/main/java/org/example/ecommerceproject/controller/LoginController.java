@@ -24,7 +24,7 @@ public class LoginController {
 
     @PostMapping("/register")
     public ResponseEntity<RegistrationRequest> register(@RequestBody RegistrationRequest request) {
-        User user = UserMapper.fromRequestToClient(request);
+        User user = UserMapper.fromRegistrationRequestToUser(request);
         user.setPassword(encoder.encode(user.getPassword()));
         return new ResponseEntity<>(userService.register(new RegistrationRequest(user)), HttpStatus.CREATED);
     }

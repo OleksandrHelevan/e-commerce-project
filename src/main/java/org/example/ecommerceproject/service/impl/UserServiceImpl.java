@@ -10,7 +10,6 @@ import org.example.ecommerceproject.repository.UserRepository;
 import org.example.ecommerceproject.request.AuthenticationRequest;
 import org.example.ecommerceproject.request.RegistrationRequest;
 import org.example.ecommerceproject.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
@@ -30,7 +29,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public RegistrationRequest register(RegistrationRequest request) {
-        User user = UserMapper.fromRequestToClient(request);
+        User user = UserMapper.fromRegistrationRequestToUser(request);
         return new RegistrationRequest(userRepository.save(user));
     }
 

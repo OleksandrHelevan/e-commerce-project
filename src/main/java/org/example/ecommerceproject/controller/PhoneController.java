@@ -4,7 +4,6 @@ import lombok.RequiredArgsConstructor;
 import org.example.ecommerceproject.exception.NoSuchObjectException;
 import org.example.ecommerceproject.model.Phone;
 import org.example.ecommerceproject.service.PhoneService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
