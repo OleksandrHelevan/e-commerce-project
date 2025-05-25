@@ -24,7 +24,7 @@ public class PhoneController {
     }
 
     @GetMapping("{modelName}")
-    public ResponseEntity<List<Phone>> getPhonesByModelName(@PathVariable String modelName) {
+    public ResponseEntity<List<PhoneDTO>> getPhonesByModelName(@PathVariable String modelName) {
         try {
             return new ResponseEntity<>(phoneService.getPhonesByModelName(modelName), HttpStatus.OK);
         } catch (NoSuchObjectException e) {
