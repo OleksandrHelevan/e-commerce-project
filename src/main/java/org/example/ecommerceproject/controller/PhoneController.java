@@ -3,7 +3,6 @@ package org.example.ecommerceproject.controller;
 import lombok.RequiredArgsConstructor;
 import org.example.ecommerceproject.dto.PhoneDTO;
 import org.example.ecommerceproject.exception.NoSuchObjectException;
-import org.example.ecommerceproject.model.Phone;
 import org.example.ecommerceproject.service.PhoneService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

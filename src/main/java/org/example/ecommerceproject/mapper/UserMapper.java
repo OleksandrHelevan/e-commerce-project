@@ -2,6 +2,7 @@ package org.example.ecommerceproject.mapper;
 
 import org.example.ecommerceproject.dto.UserDTO;
 import org.example.ecommerceproject.model.User;
+import org.example.ecommerceproject.request.AuthenticationRequest;
 import org.example.ecommerceproject.request.RegistrationRequest;
 
 public class UserMapper {
@@ -25,5 +26,9 @@ public class UserMapper {
         userDTO.setBirthDate(user.getBirthDate());
         userDTO.setSex(user.getSex());
         return userDTO;
+    }
+
+    public static AuthenticationRequest fromRegistrationToAuthenticationRequest(RegistrationRequest request) {
+        return new AuthenticationRequest(request.username(), request.password());
     }
 }

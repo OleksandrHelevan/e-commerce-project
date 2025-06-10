@@ -32,7 +32,7 @@ public class UserController {
         }
     }
 
-    @GetMapping("/all") //TEMP
+    @GetMapping("") //TEMP
     public List<User> getAllUsers() {
         return userService.getAllUsers();
     }
