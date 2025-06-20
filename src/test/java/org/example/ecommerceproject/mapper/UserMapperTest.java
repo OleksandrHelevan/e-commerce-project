@@ -3,6 +3,7 @@ package org.example.ecommerceproject.mapper;
 import org.example.ecommerceproject.dto.UserDTO;
 import org.example.ecommerceproject.enums.Sex;
 import org.example.ecommerceproject.model.User;
+import org.example.ecommerceproject.request.AuthenticationRequest;
 import org.example.ecommerceproject.request.RegistrationRequest;
 import org.junit.jupiter.api.Test;
 
@@ -57,5 +58,21 @@ public class UserMapperTest {
         assertEquals(expectedUserDto, actualUserDto);
     }
 
+    @Test
+    void testFromRegistrationToAuthenticationRequest(){
+        RegistrationRequest request = new RegistrationRequest("Oleksandr",
+                "1234qwer",
+                "+380981093088",
+                "oleksandr@example.com",
+                "03-03-2000",
+                Sex.MALE);
+
+        AuthenticationRequest expectedRequest = new AuthenticationRequest("Oleksandr",
+                "1234qwer");
+
+        AuthenticationRequest actualRequest = UserMapper.fromRegistrationToAuthenticationRequest(request);
+
+        assertEquals(expectedRequest, actualRequest);
+    }
 
 }

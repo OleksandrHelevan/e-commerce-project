@@ -1,11 +1,15 @@
 package org.example.ecommerceproject.model;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.example.ecommerceproject.enums.TechCondition;
 
 @Data
 @Entity
+@AllArgsConstructor
+@NoArgsConstructor
 @Table(name = "phones")
 public class Phone {
     @Id
