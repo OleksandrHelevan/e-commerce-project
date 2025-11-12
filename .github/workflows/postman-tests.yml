@@ -23,7 +23,7 @@ jobs:
         run: npm install -g newman
 
       - name: Run Postman collection
-        run: newman run postman/tests.json -r cli,html
+        run: newman run tests.postman_collection.json -r cli,html
 
       - name: Upload HTML report
         uses: actions/upload-artifact@v4
