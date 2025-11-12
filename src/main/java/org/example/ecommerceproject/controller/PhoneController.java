@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController()
 @RequestMapping("/phones")
-@RequiredArgsConstructor()
+@RequiredArgsConstructor
 public class PhoneController {
 
     private final PhoneService phoneService;
